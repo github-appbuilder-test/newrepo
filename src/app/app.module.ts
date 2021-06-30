@@ -8,12 +8,14 @@ import { HomeComponent } from './home/home.component';
 import { IgxIconModule, IgxAvatarModule, IgxButtonModule, IgxListModule, IgxInputGroupModule, IgxSelectModule } from 'igniteui-angular';
 import { FormsModule } from '@angular/forms';
 import { MyInfoComponent } from './my-info/my-info.component';
+import { ChildViewComponent } from './child-view/child-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    MyInfoComponent
+    MyInfoComponent,
+    ChildViewComponent
   ],
   imports: [
     BrowserModule,
